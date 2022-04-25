@@ -7,11 +7,11 @@ class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('cave', "SnomanPlatformerAssets/Background.jpg");
-    this.load.image('platform', "SnomanPlatformerAssets/Platform.png");
-    this.load.spritesheet('codey', "SnomanPlatformerAssets/Character.png", { frameWidth: 118, frameHeight: 249 });
-    this.load.spritesheet('snowman', "SnomanPlatformerAssets/MrNoMan.png", { frameWidth: 95, frameHeight: 145 });
-    this.load.spritesheet('exit', "SnomanPlatformerAssets/Portal.png", { frameWidth: 244.25, frameHeight: 505 });
+    this.load.image('cave', "Cave.png");
+    this.load.image('platform', "Cheeseplatform.png");
+    this.load.spritesheet('codey', "CodySheet.png", { frameWidth: 118, frameHeight: 249 });
+    this.load.spritesheet('snowman', "SnomanSheet.png", { frameWidth: 95, frameHeight: 145 });
+    this.load.spritesheet('exit', "PortalSheet.png", { frameWidth: 244.25, frameHeight: 505 });
   }
 
   create() {
